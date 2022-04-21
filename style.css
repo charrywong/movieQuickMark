@@ -1,0 +1,28 @@
+.ext-link {
+    position: relative;
+    z-index: 0;
+}
+
+.ext-watch {
+    position: absolute;
+    left: 1px;
+    padding: 0px 2px;
+    z-index: 1;
+    color: white !important;
+}
+
+.ext-unwatched {
+    background-color: rgb(63, 131, 236) !important;
+}
+
+.ext-unwatched:hover {
+    background-color: rgb(97, 154, 239) !important;
+}
+
+.ext-watched {
+    background-color: rgb(33, 184, 121) !important;
+}
+
+.ext-watched:hover {
+    background-color: rgb(36, 204, 134) !important;
+}
